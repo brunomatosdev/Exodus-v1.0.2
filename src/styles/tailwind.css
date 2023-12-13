@@ -93,3 +93,24 @@ li:hover{
   justify-content: space-between;
 }
 
+/* Imagens responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tamanho de fonte padrão */
+body {
+  font-size: 18px;
+}
+
+/* Exemplo de media query para telas pequenas */
+@media screen and (max-width: 600px) {
+  /* Reduz o tamanho da fonte em telas pequenas */
+  body {
+    font-size: 16px;
+  }
+
+  /* Adiciona regras específicas para telas pequenas, se necessário */
+}
+

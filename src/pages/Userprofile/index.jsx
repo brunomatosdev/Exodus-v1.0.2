@@ -11,7 +11,7 @@ const UserprofilePage = () => {
       <div className="bg-black-900 font-saira mx-auto p-[49px] md:px-10 sm:px-5 w-full relative">
         <NavBar />
 
-        <div className="flex flex-col md:flex-row items-center gap-[95px] md:ml-[0] ml-[53px] md:pl-10 sm:pl-5 pl-[558px] w-[77%] md:w-full">
+        <div className="flex flex-col md:flex-row items-center gap-[95px] md:ml-[0] ml-[5%] md:pl-10 sm:pl-5 w-full md:w-[70%]">
           <div className="flex flex-col gap-[50px] items-center justify-start w-full">
             <Menu />
           </div>

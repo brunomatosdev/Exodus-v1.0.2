@@ -14,10 +14,11 @@ body {
 .common-pointer {
   cursor: pointer;
 }
+@media screen and (max-width: 550px) {
 .exodus-navigation {
-  padding: 20px;
+  padding: 10px;
   background-color: #232323;
-}
+}}
 .exodus-navigation h1 {
   color: white;
 }
